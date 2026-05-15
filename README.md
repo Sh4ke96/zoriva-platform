@@ -1,1 +1,1 @@
-# zoriva-platform test
+# zoriva-platform
