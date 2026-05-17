@@ -23,6 +23,7 @@ The product is designed for individuals, families, parents, caregivers, and seni
 - 🔷 TypeScript
 - 🎨 Tailwind CSS
 - 🧩 shadcn/ui
+- 📚 Fumadocs
 - 📝 React Hook Form
 - ✅ Zod
 - 🔄 TanStack Query
@@ -47,3 +48,48 @@ The product is designed for individuals, families, parents, caregivers, and seni
 ```bash
 npm run dev
 ```
+
+## 🧪 E2E Tests
+
+Project is prepared for Cypress.
+
+```bash
+pnpm install
+pnpm test:e2e
+```
+
+For interactive mode:
+
+```bash
+pnpm cy:open
+```
+
+## 🌗 Dark Mode
+
+Dark mode is configured with `next-themes` and uses the existing `.dark` class strategy from Tailwind CSS. The home page includes a ready-to-use theme toggle.
+
+## 📚 Documentation
+
+The project uses Fumadocs for documentation.
+
+Documentation should be maintained in two dimensions:
+
+- by audience: technical and business,
+- by language: Polish and English.
+
+Recommended documentation structure:
+
+```text
+content/docs/
+├── pl/
+│   ├── technical/
+│   └── business/
+└── en/
+	├── technical/
+	└── business/
+```
+
+Suggested scope:
+
+- Technical documentation: architecture, setup, environments, integrations, data flows, auth, notifications, deployment, code conventions.
+- Business documentation: product vision, user flows, roles, family model, premium features, pricing logic, roadmap, operational rules.
