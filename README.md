@@ -46,7 +46,7 @@ The product is designed for individuals, families, parents, caregivers, and seni
 ## 🚀 Run The Project
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## 🧪 E2E Tests
@@ -63,10 +63,6 @@ For interactive mode:
 ```bash
 pnpm cy:open
 ```
-
-## 🌗 Dark Mode
-
-Dark mode is configured with `next-themes` and uses the existing `.dark` class strategy from Tailwind CSS. The home page includes a ready-to-use theme toggle.
 
 ## 📚 Documentation
 

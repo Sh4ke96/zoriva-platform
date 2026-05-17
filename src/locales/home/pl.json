@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "title": "Zoriva | Rodzinny asystent zdrowia i przypomnień o lekach",
+    "description": "Pilnuj leków, przypomnień i codziennych zdrowotnych obowiązków całej rodziny w jednym miejscu."
+  },
+  "guestShell": {
+    "brand": "Zoriva",
+    "auth": {
+      "login": "Zaloguj się",
+      "signup": "Załóż konto"
+    },
+    "navigation": [
+      { "href": "#dla-kogo", "label": "Dla kogo", "icon": "users" },
+      { "href": "#funkcje", "label": "Funkcje", "icon": "sparkles" },
+      { "href": "#tryby", "label": "Tryby", "icon": "heart-handshake" },
+      { "href": "#dostepnosc", "label": "Dostępność", "icon": "shield-plus" },
+      { "href": "#cennik", "label": "Cennik", "icon": "badge-percent" },
+      { "href": "#faq", "label": "FAQ", "icon": "circle-help" }
+    ],
+    "footer": {
+      "brandDescription": "Zoriva to spokojna platforma do zarządzania lekami i zdrowiem rodziny. Stworzona w Polsce, z myślą o codziennym życiu.",
+      "socialLinks": [
+        { "href": "#instagram", "label": "Instagram", "icon": "instagram" },
+        { "href": "#facebook", "label": "Facebook", "icon": "facebook" },
+        { "href": "#linkedin", "label": "LinkedIn", "icon": "linkedin" },
+        { "href": "#tiktok", "label": "TikTok", "icon": "tiktok" },
+        { "href": "#x", "label": "X", "icon": "twitterX" }
+      ],
+      "productTitle": "Produkt",
+      "productExtraLinks": [
+        { "href": "#bezpieczenstwo", "label": "Bezpieczeństwo" },
+        { "href": "#zmiany-w-wersjach", "label": "Zmiany w wersjach" }
+      ],
+      "columns": [
+        {
+          "title": "Pomoc",
+          "links": [
+            { "href": "#centrum-pomocy", "label": "Centrum pomocy" },
+            { "href": "#kontakt", "label": "Kontakt" },
+            { "href": "#status-systemu", "label": "Status systemu" },
+            { "href": "#spolecznosc", "label": "Społeczność" }
+          ]
+        },
+        {
+          "title": "Firma",
+          "links": [
+            { "href": "#o-nas", "label": "O nas" },
+            { "href": "#blog", "label": "Blog" },
+            { "href": "#kariera", "label": "Kariera" },
+            { "href": "#prasa", "label": "Prasa" }
+          ]
+        },
+        {
+          "title": "Prawne",
+          "links": [
+            { "href": "#regulamin", "label": "Regulamin" },
+            { "href": "#polityka-prywatnosci", "label": "Polityka prywatności" },
+            { "href": "#rodo", "label": "RODO" },
+            { "href": "#cookies", "label": "Cookies" }
+          ]
+        }
+      ],
+      "copyright": "© 2026 Zoriva sp. z o.o. Wszelkie prawa zastrzeżone.",
+      "disclaimer": "Zoriva nie świadczy usług medycznych. W sprawach zdrowotnych skonsultuj się z lekarzem."
+    }
+  },
+  "navbar": {
+    "language": {
+      "label": "Język",
+      "pl": "PL",
+      "en": "EN"
+    }
+  },
+  "hero": {
+    "badge": "Zdrowie rodziny w jednym miejscu",
+    "titlePrefix": "Spokojne zarządzanie lekami dla",
+    "titleAccent": "Ciebie i bliskich.",
+    "description": "Zoriva pomaga prowadzić apteczkę domową, pamiętać o dawkach i opiekować się zdrowiem całej rodziny bez chaosu, bez stresu, w jednym przejrzystym miejscu.",
+    "primaryCta": "Załóż darmowe konto",
+    "secondaryCta": "Zobacz, jak to działa",
+    "reassurance": ["Dane szyfrowane", "Bez reklam", "Po polsku"],
+    "mockup": {
+      "domain": "app.zoriva.pl",
+      "date": "Wtorek, 14 maja",
+      "greeting": "Dzień dobry, Anno",
+      "dosesTitle": "Dawki na dziś",
+      "dosesProgress": "3 z 5",
+      "profiles": [
+        { "label": "A", "tone": "primary" },
+        { "label": "M", "tone": "accent" },
+        { "label": "T", "tone": "secondary" }
+      ],
+      "items": [
+        {
+          "name": "Metformina 500 mg",
+          "person": "Anna",
+          "time": "08:00",
+          "status": "Przyjęte",
+          "complete": true
+        },
+        {
+          "name": "Witamina D3 2000 IU",
+          "person": "Tomek",
+          "time": "09:30",
+          "status": "Przyjęte",
+          "complete": true
+        },
+        {
+          "name": "Lisinopril 10 mg",
+          "person": "Anna",
+          "time": "13:00",
+          "status": "Oznacz",
+          "complete": false
+        },
+        {
+          "name": "Syrop na kaszel",
+          "person": "Maja",
+          "time": "20:00",
+          "status": "Oznacz",
+          "complete": false
+        }
+      ],
+      "activeMedications": {
+        "label": "Aktywne leki",
+        "value": "12",
+        "caption": "w 3 profilach"
+      },
+      "nextReminder": {
+        "label": "Najbliższe przypomnienie",
+        "value": "13:00",
+        "caption": "Lisinopril — Anna"
+      }
+    }
+  },
+  "audience": {
+    "id": "dla-kogo",
+    "eyebrow": "Dla kogo jest Zoriva",
+    "title": "Stworzone dla osób, które dbają o zdrowie, swoje i bliskich.",
+    "description": "Niezależnie od tego, czy zarządzasz jedną kuracją, czy całą rodzinną apteczką, Zoriva dopasowuje się do Twojej codzienności.",
+    "items": [
+      {
+        "icon": "heart",
+        "title": "Dla Ciebie",
+        "description": "Prowadź własną apteczkę i nie zapominaj o dawkach."
+      },
+      {
+        "icon": "parents",
+        "title": "Dla rodziców",
+        "description": "Pilnuj leków i szczepień dzieci w jednym kalendarzu."
+      },
+      {
+        "icon": "seniors",
+        "title": "Dla seniorów",
+        "description": "Duże litery, prosty układ i jasne przypomnienia."
+      },
+      {
+        "icon": "caregivers",
+        "title": "Dla opiekunów",
+        "description": "Wspieraj bliskich na odległość, bez nerwów i list w głowie."
+      }
+    ]
+  },
+  "features": {
+    "id": "funkcje",
+    "eyebrow": "Funkcje",
+    "title": "Wszystko, czego potrzebujesz, żeby zapanować nad lekami.",
+    "description": "Zoriva łączy najważniejsze narzędzia dla zdrowia w jednej, czytelnej aplikacji.",
+    "items": [
+      {
+        "icon": "pill",
+        "title": "Zarządzanie lekami",
+        "description": "Cała Twoja apteczka w jednym miejscu, z dawkowaniem, formą i notatkami."
+      },
+      {
+        "icon": "schedule",
+        "title": "Harmonogram dawkowania",
+        "description": "Twórz proste lub złożone plany przyjmowania leków, także co kilka dni."
+      },
+      {
+        "icon": "reminder",
+        "title": "Przypomnienia",
+        "description": "Powiadomienia w odpowiednim momencie, dla Ciebie i osób, którymi się opiekujesz."
+      },
+      {
+        "icon": "history",
+        "title": "Historia leczenia",
+        "description": "Pełna chronologia przyjętych dawek, kuracji i zmian w terapii."
+      },
+      {
+        "icon": "profiles",
+        "title": "Profile rodzinne",
+        "description": "Oddzielne profile dla każdego członka rodziny, dzieci, partnera i rodziców."
+      },
+      {
+        "icon": "notes",
+        "title": "Notatki zdrowotne",
+        "description": "Zapisuj objawy, ciśnienie, samopoczucie i ważne uwagi od lekarza."
+      },
+      {
+        "icon": "pricing",
+        "title": "Ceny i zamienniki",
+        "description": "Wkrótce porównuj ceny leków i znajduj tańsze odpowiedniki.",
+        "badge": "Wkrótce"
+      },
+      {
+        "icon": "calm",
+        "title": "Spokojny interfejs",
+        "description": "Bez reklam i krzykliwych kolorów, projekt skupiony na czytelności."
+      }
+    ]
+  },
+  "modes": {
+    "id": "tryby",
+    "eyebrow": "Dwa tryby pracy",
+    "title": "Tylko Twoje zdrowie, albo cała rodzina.",
+    "description": "Zoriva działa tak, jak Ci wygodnie. Przełączaj się jednym kliknięciem.",
+    "accessibility": {
+      "id": "dostepnosc",
+      "eyebrow": "Prostota i dostępność",
+      "title": "Zaprojektowane także z myślą o seniorach.",
+      "description": "Duże, czytelne litery, wysoki kontrast, jasne komunikaty i brak zbędnych elementów. Twoi rodzice i dziadkowie poradzą sobie z Zorivą, a Ty możesz spokojnie pomóc im zdalnie.",
+      "items": [
+        "Tryb dużej czcionki i wysokiego kontrastu",
+        "Jasne, jednoznaczne przyciski po polsku",
+        "Proste, jednokrokowe potwierdzanie dawek",
+        "Możliwość prowadzenia konta przez opiekuna"
+      ],
+      "card": {
+        "title": "Następna dawka",
+        "subtitle": "Wtorek, 14 maja · godz. 13:00",
+        "label": "Lek",
+        "medicine": "Lisinopril 10 mg",
+        "doseLabel": "Dawka",
+        "dose": "1 tabletka, po posiłku",
+        "primary": "Przyjęto",
+        "secondary": "Przełóż o 30 min"
+      }
+    },
+    "tabs": {
+      "personal": "Tryb osobisty",
+      "family": "Tryb rodzinny"
+    },
+    "personal": {
+      "title": "Tylko Twoje leki i zdrowie",
+      "description": "Idealny, jeśli prowadzisz jedną kurację lub po prostu chcesz mieć porządek w swojej apteczce.",
+      "items": [
+        "Jedna oś czasu dawek",
+        "Prywatne notatki zdrowotne",
+        "Cicha synchronizacja między urządzeniami",
+        "Eksport historii dla lekarza"
+      ]
+    },
+    "family": {
+      "title": "Cała rodzina pod jednym dachem",
+      "description": "Twórz profile dla dzieci, partnera i rodziców. Każdy ma swój harmonogram, Ty masz spokój.",
+      "items": [
+        "Do 6 profili w jednym koncie",
+        "Wspólny kalendarz dawek",
+        "Role: opiekun i obserwator",
+        "Powiadomienia o przegapionych dawkach"
+      ]
+    }
+  },
+  "pricing": {
+    "id": "cennik",
+    "eyebrow": "Cennik",
+    "title": "Prosty plan. Bez ukrytych kosztów.",
+    "description": "Zacznij za darmo, rozszerz, gdy poczujesz, że Zoriva pomaga Twojej rodzinie.",
+    "plans": [
+      {
+        "name": "Zoriva Free",
+        "subtitle": "Dla jednej osoby. Wszystko, czego potrzeba na start.",
+        "price": "0 zł",
+        "period": "",
+        "features": [
+          "1 profil",
+          "Do 10 leków",
+          "Przypomnienia",
+          "Historia 30 dni",
+          "Jedna oś czasu dawek"
+        ],
+        "cta": "Zacznij za darmo"
+      },
+      {
+        "name": "Zoriva Premium",
+        "subtitle": "Dla całej rodziny. Pełen spokój i więcej możliwości.",
+        "price": "19 zł",
+        "period": "/ miesiąc",
+        "badge": "Najpopularniejszy",
+        "highlighted": true,
+        "features": [
+          "Do 6 profili rodzinnych",
+          "Bez limitu leków",
+          "Pełna historia leczenia",
+          "Eksport PDF dla lekarza",
+          "Porównywarka cen (wkrótce)"
+        ],
+        "cta": "Wypróbuj 14 dni za darmo"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "eyebrow": "Najczęstsze pytania",
+    "title": "Wszystko, co warto wiedzieć.",
+    "items": [
+      {
+        "question": "Czy Zoriva zastępuje wizytę u lekarza?",
+        "answer": "Nie. Zoriva pomaga organizować leki, przypomnienia i historię zdrowia, ale nie stawia diagnoz i nie zastępuje konsultacji medycznej."
+      },
+      {
+        "question": "Czy moje dane są bezpieczne?",
+        "answer": "Tak. Dane są szyfrowane, a dostęp do konta możesz dodatkowo chronić silnym hasłem i kontrolą urządzeń."
+      },
+      {
+        "question": "Czy mogę prowadzić konto mojej mamy lub taty?",
+        "answer": "Tak. W trybie rodzinnym możesz dodać profile bliskich i pomagać im zdalnie w pilnowaniu dawek oraz przypomnień."
+      },
+      {
+        "question": "Czy aplikacja działa na telefonie?",
+        "answer": "Tak. Interfejs jest projektowany mobile-first, dlatego wygodnie działa na smartfonach, tabletach i komputerach."
+      },
+      {
+        "question": "Kiedy pojawi się porównywarka cen leków?",
+        "answer": "To jedna z planowanych funkcji premium. Najpierw skupiamy się na dopracowaniu podstawowej opieki nad dawkami i profilami rodzinnymi."
+      },
+      {
+        "question": "Czy mogę zrezygnować w każdej chwili?",
+        "answer": "Tak. Nie ma długoterminowych zobowiązań, a plan premium możesz wyłączyć, kiedy tylko chcesz."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zadbaj o spokojne zdrowie swojej rodziny już dziś.",
+    "description": "Załóż darmowe konto Zoriva w minutę. Bez karty, bez zobowiązań, z pełnym spokojem.",
+    "primary": "Załóż konto",
+    "secondary": "Zaloguj się"
+  }
+}

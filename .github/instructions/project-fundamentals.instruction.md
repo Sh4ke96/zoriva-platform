@@ -61,7 +61,7 @@ Zoriva should help users:
 
 - **Type**: Next.js React application with TypeScript
 - **Framework**: Next.js 16 with React 19
-- **Styling**: Tailwind CSS 4, shadcn/ui, CSS variables, dark mode via `next-themes`
+- **Styling**: Tailwind CSS 4, shadcn/ui, CSS variables, dark mode via `next-themes`, Lucide icons
 - **Documentation**: Fumadocs for product and technical documentation
 - **Target Runtime**: Node.js v22.16.0
 - **Package Manager**: pnpm
@@ -293,6 +293,23 @@ When creating new product areas, prefer this process:
 4. Place utilities and helpers in `src/lib/...`.
 5. Keep names domain-based and understandable for the health product.
 6. Reuse existing UI primitives before creating new ones.
+7. Place app-level providers in `src/components/providers/...` and theme-specific controls in `src/components/theme/...`.
+
+### TypeScript and React State Typing (CRITICAL)
+
+- Always prefer explicit state typing when using `useState`, especially for booleans, unions, nullable values, arrays, objects, and any state shared across handlers.
+- For boolean state, always write the real type explicitly: `useState<boolean>(false)`.
+- Apply the same rule to other value types: `useState<string>("")`, `useState<Locale>(Locales.Pl)`, `useState<User | null>(null)`, `useState<string[]>([])`.
+- Do not leave important UI state implicitly typed when the intended value shape should be obvious from the code.
+- Keep the generic aligned with the actual runtime value stored in that state.
+
+**Examples:**
+
+- ✅ `const [isOpen, setIsOpen] = useState<boolean>(false);`
+- ✅ `const [locale, setLocale] = useState<Locale>(Locales.Pl);`
+- ✅ `const [selectedId, setSelectedId] = useState<string | null>(null);`
+- ❌ `const [isOpen, setIsOpen] = useState(false);`
+- ❌ `const [selectedId, setSelectedId] = useState(null);`
 
 ## Component Development
 
@@ -301,10 +318,13 @@ When creating new product areas, prefer this process:
 **⚡ Critical Rules:**
 
 - **Always** reuse existing UI primitives from `src/components/ui` before creating new ones
+- **Prefer** generated shadcn/ui primitives and extend them only when the project needs a thin wrapper for local variants or icon slots
 - **Prefer** server components by default and use client components only when interactivity or browser APIs are needed
 - **Use** Tailwind utility classes for styling
 - **Never** use `px` units in custom styles - use `rem` units
 - **Keep** new components compatible with light and dark mode when relevant
+- **Use** Lucide icons through shared UI patterns and keep icon usage consistent with existing `src/components/ui` primitives
+- **Keep** providers in `src/components/providers` and avoid mixing them with visual UI primitives
 
 ### Component Structure (CRITICAL)
 
@@ -326,6 +346,21 @@ components/
 components/
 └── ui/
    └── button.tsx
+```
+
+**Providers Pattern:**
+
+```
+components/
+├── providers/
+│   ├── app-providers.tsx
+│   └── theme-provider.tsx
+├── theme/
+│   └── theme-toggle.tsx
+└── ui/
+   ├── button.tsx
+   ├── dropdown-menu.tsx
+   └── sheet.tsx
 ```
 
 ### Naming Conventions

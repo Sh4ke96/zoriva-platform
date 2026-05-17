@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "title": "Zoriva | Family health assistant for medications and reminders",
+    "description": "Track medications, reminders, and everyday family health routines in one calm place."
+  },
+  "guestShell": {
+    "brand": "Zoriva",
+    "auth": {
+      "login": "Log in",
+      "signup": "Create account"
+    },
+    "navigation": [
+      { "href": "#for-whom", "label": "For whom", "icon": "users" },
+      { "href": "#features", "label": "Features", "icon": "sparkles" },
+      { "href": "#modes", "label": "Modes", "icon": "heart-handshake" },
+      { "href": "#accessibility", "label": "Accessibility", "icon": "shield-plus" },
+      { "href": "#pricing", "label": "Pricing", "icon": "badge-percent" },
+      { "href": "#faq", "label": "FAQ", "icon": "circle-help" }
+    ],
+    "footer": {
+      "brandDescription": "Zoriva is a calm platform for managing medications and family health. Built in Poland for real everyday life.",
+      "socialLinks": [
+        { "href": "#instagram", "label": "Instagram", "icon": "instagram" },
+        { "href": "#facebook", "label": "Facebook", "icon": "facebook" },
+        { "href": "#linkedin", "label": "LinkedIn", "icon": "linkedin" },
+        { "href": "#tiktok", "label": "TikTok", "icon": "tiktok" },
+        { "href": "#x", "label": "X", "icon": "twitterX" }
+      ],
+      "productTitle": "Product",
+      "productExtraLinks": [
+        { "href": "#security", "label": "Security" },
+        { "href": "#release-notes", "label": "Release notes" }
+      ],
+      "columns": [
+        {
+          "title": "Support",
+          "links": [
+            { "href": "#help-center", "label": "Help center" },
+            { "href": "#contact", "label": "Contact" },
+            { "href": "#system-status", "label": "System status" },
+            { "href": "#community", "label": "Community" }
+          ]
+        },
+        {
+          "title": "Company",
+          "links": [
+            { "href": "#about", "label": "About" },
+            { "href": "#blog", "label": "Blog" },
+            { "href": "#careers", "label": "Careers" },
+            { "href": "#press", "label": "Press" }
+          ]
+        },
+        {
+          "title": "Legal",
+          "links": [
+            { "href": "#terms", "label": "Terms" },
+            { "href": "#privacy-policy", "label": "Privacy policy" },
+            { "href": "#gdpr", "label": "GDPR" },
+            { "href": "#cookies", "label": "Cookies" }
+          ]
+        }
+      ],
+      "copyright": "© 2026 Zoriva sp. z o.o. All rights reserved.",
+      "disclaimer": "Zoriva does not provide medical services. For health concerns, consult a doctor."
+    }
+  },
+  "navbar": {
+    "language": {
+      "label": "Language",
+      "pl": "PL",
+      "en": "EN"
+    }
+  },
+  "hero": {
+    "badge": "Your family's health in one place",
+    "titlePrefix": "Calm medication management for",
+    "titleAccent": "you and your loved ones.",
+    "description": "Zoriva helps you manage your home medicine cabinet, remember doses and care for your whole family’s health without chaos, without stress, in one clear place.",
+    "primaryCta": "Create a free account",
+    "secondaryCta": "See how it works",
+    "reassurance": ["Encrypted data", "No ads", "Available in English"],
+    "mockup": {
+      "domain": "app.zoriva.pl",
+      "date": "Tuesday, 14 May",
+      "greeting": "Good morning, Anna",
+      "dosesTitle": "Today’s doses",
+      "dosesProgress": "3 of 5",
+      "profiles": [
+        { "label": "A", "tone": "primary" },
+        { "label": "M", "tone": "accent" },
+        { "label": "T", "tone": "secondary" }
+      ],
+      "items": [
+        {
+          "name": "Metformin 500 mg",
+          "person": "Anna",
+          "time": "08:00",
+          "status": "Taken",
+          "complete": true
+        },
+        {
+          "name": "Vitamin D3 2000 IU",
+          "person": "Tomek",
+          "time": "09:30",
+          "status": "Taken",
+          "complete": true
+        },
+        {
+          "name": "Lisinopril 10 mg",
+          "person": "Anna",
+          "time": "13:00",
+          "status": "Mark",
+          "complete": false
+        },
+        {
+          "name": "Cough syrup",
+          "person": "Maja",
+          "time": "20:00",
+          "status": "Mark",
+          "complete": false
+        }
+      ],
+      "activeMedications": {
+        "label": "Active medications",
+        "value": "12",
+        "caption": "across 3 profiles"
+      },
+      "nextReminder": {
+        "label": "Next reminder",
+        "value": "13:00",
+        "caption": "Lisinopril — Anna"
+      }
+    }
+  },
+  "audience": {
+    "id": "for-whom",
+    "eyebrow": "Who Zoriva is for",
+    "title": "Built for people who care about health, their own and their loved ones'.",
+    "description": "Whether you manage one treatment or a whole family medicine cabinet, Zoriva adapts to your everyday routine.",
+    "items": [
+      {
+        "icon": "heart",
+        "title": "For you",
+        "description": "Keep your own medicine cabinet organized and never miss a dose."
+      },
+      {
+        "icon": "parents",
+        "title": "For parents",
+        "description": "Track children’s medications and vaccinations in one calendar."
+      },
+      {
+        "icon": "seniors",
+        "title": "For seniors",
+        "description": "Large text, a simple layout, and reminders that are easy to follow."
+      },
+      {
+        "icon": "caregivers",
+        "title": "For caregivers",
+        "description": "Support loved ones from a distance without stress or mental checklists."
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "eyebrow": "Features",
+    "title": "Everything you need to stay in control of medications.",
+    "description": "Zoriva brings together the most important health tools in one clear app.",
+    "items": [
+      {
+        "icon": "pill",
+        "title": "Medication management",
+        "description": "Your entire medicine cabinet in one place with dosage, form, and notes."
+      },
+      {
+        "icon": "schedule",
+        "title": "Dosing schedule",
+        "description": "Create simple or more advanced medication plans, including every-few-days routines."
+      },
+      {
+        "icon": "reminder",
+        "title": "Reminders",
+        "description": "Timely notifications for you and the people you care for."
+      },
+      {
+        "icon": "history",
+        "title": "Treatment history",
+        "description": "A complete timeline of taken doses, treatment plans, and therapy changes."
+      },
+      {
+        "icon": "profiles",
+        "title": "Family profiles",
+        "description": "Separate profiles for each family member, children, partner, and parents."
+      },
+      {
+        "icon": "notes",
+        "title": "Health notes",
+        "description": "Save symptoms, blood pressure, wellbeing, and important notes from your doctor."
+      },
+      {
+        "icon": "pricing",
+        "title": "Prices and alternatives",
+        "description": "Coming soon: compare medication prices and find more affordable alternatives.",
+        "badge": "Coming soon"
+      },
+      {
+        "icon": "calm",
+        "title": "Calm interface",
+        "description": "No ads or harsh colors, a product designed around clarity."
+      }
+    ]
+  },
+  "modes": {
+    "id": "modes",
+    "eyebrow": "Two ways to use it",
+    "title": "Just your health, or the whole family.",
+    "description": "Zoriva works the way you prefer. Switch in a single click.",
+    "accessibility": {
+      "id": "accessibility",
+      "eyebrow": "Simplicity and accessibility",
+      "title": "Designed with seniors in mind too.",
+      "description": "Large readable type, strong contrast, clear messages, and no unnecessary clutter. Parents and grandparents can handle Zoriva comfortably, and you can still support them remotely.",
+      "items": [
+        "Large-text and high-contrast mode",
+        "Clear, unambiguous action buttons",
+        "Simple one-step dose confirmation",
+        "Caregiver-managed account support"
+      ],
+      "card": {
+        "title": "Next dose",
+        "subtitle": "Tuesday, 14 May · 1:00 PM",
+        "label": "Medication",
+        "medicine": "Lisinopril 10 mg",
+        "doseLabel": "Dose",
+        "dose": "1 tablet, after a meal",
+        "primary": "Taken",
+        "secondary": "Delay by 30 min"
+      }
+    },
+    "tabs": {
+      "personal": "Personal mode",
+      "family": "Family mode"
+    },
+    "personal": {
+      "title": "Only your medications and health",
+      "description": "Ideal when you manage one treatment plan or just want a clear, tidy medicine cabinet.",
+      "items": [
+        "One timeline for all doses",
+        "Private health notes",
+        "Quiet sync across devices",
+        "Export history for your doctor"
+      ]
+    },
+    "family": {
+      "title": "The whole family under one roof",
+      "description": "Create profiles for children, your partner, and parents. Everyone has their own schedule, and you keep the overview.",
+      "items": [
+        "Up to 6 profiles in one account",
+        "Shared dosing calendar",
+        "Caregiver and observer roles",
+        "Missed-dose notifications"
+      ]
+    }
+  },
+  "pricing": {
+    "id": "pricing",
+    "eyebrow": "Pricing",
+    "title": "A simple plan. No hidden costs.",
+    "description": "Start for free and upgrade when you feel Zoriva is helping your family.",
+    "plans": [
+      {
+        "name": "Zoriva Free",
+        "subtitle": "For one person. Everything you need to get started.",
+        "price": "$0",
+        "period": "",
+        "features": [
+          "1 profile",
+          "Up to 10 medications",
+          "Reminders",
+          "30-day history",
+          "One dosing timeline"
+        ],
+        "cta": "Start for free"
+      },
+      {
+        "name": "Zoriva Premium",
+        "subtitle": "For the whole family. More calm and more capabilities.",
+        "price": "$5",
+        "period": "/ month",
+        "badge": "Most popular",
+        "highlighted": true,
+        "features": [
+          "Up to 6 family profiles",
+          "Unlimited medications",
+          "Full treatment history",
+          "PDF export for your doctor",
+          "Price comparison (coming soon)"
+        ],
+        "cta": "Try 14 days free"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "eyebrow": "Frequently asked questions",
+    "title": "Everything worth knowing.",
+    "items": [
+      {
+        "question": "Does Zoriva replace a doctor’s visit?",
+        "answer": "No. Zoriva helps organize medications, reminders, and health history, but it does not diagnose conditions or replace professional medical advice."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Yes. Your data is encrypted, and you can further protect your account with a strong password and device-level controls."
+      },
+      {
+        "question": "Can I manage an account for my mom or dad?",
+        "answer": "Yes. In family mode you can add loved ones’ profiles and support them remotely with reminders and dose tracking."
+      },
+      {
+        "question": "Does the app work on mobile?",
+        "answer": "Yes. The interface is designed mobile-first, so it works comfortably on phones, tablets, and desktop devices."
+      },
+      {
+        "question": "When will medication price comparison be available?",
+        "answer": "It is one of our planned premium features. Right now we are focused on refining the core experience around doses and family profiles."
+      },
+      {
+        "question": "Can I cancel at any time?",
+        "answer": "Yes. There are no long-term commitments, and you can turn off Premium whenever you want."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Take care of your family’s health with less stress, starting today.",
+    "description": "Create your free Zoriva account in a minute. No card, no commitments, just more peace of mind.",
+    "primary": "Create account",
+    "secondary": "Log in"
+  }
+}

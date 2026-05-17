@@ -5,7 +5,7 @@ description: High-level technical direction for the platform.
 
 # Technical overview
 
-Zoriva is built with Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui, Supabase, and Fumadocs.
+Zoriva is built with Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui, Supabase, Fumadocs, and Lordicon for animated icons.
 
 Current repository direction:
 
@@ -13,3 +13,12 @@ Current repository direction:
 - authentication next,
 - user dashboard after that,
 - admin area later.
+
+Current frontend conventions include:
+
+- global design tokens and typography in `src/app/globals.css`,
+- dark mode via `next-themes`,
+- app-level providers grouped in `src/components/providers`,
+- theme-specific controls grouped in `src/components/theme`,
+- Lordicon registered once through `src/components/providers/lordicon-provider.tsx`,
+- reusable animated icon wrapper in `src/components/ui/lord-icon.tsx`.
